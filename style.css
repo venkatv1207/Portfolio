@@ -228,10 +228,16 @@ footer p {
   height:fit-content;
   width: fit-content;
 }
+.accordion-body{
+  height:fit-content;
+  width: fit-content;
+
+}
 
 
 
-@media (width < 750px) {
+
+@media (width < 540px) {
   nav .checkbox {
     display: block;
   }
@@ -270,39 +276,45 @@ footer p {
   .action__btns {
     margin: auto;
   }
-  .v{
+
+  .v,.table,.accordion-body{
     height: fit-content;
     width: fit-content;
     margin: auto;
   }
+  #modal{
+    height: fit-content;
+    width: fit-content;
+  }
+  
   #contact{
       height: fit-content;
     }
-    .contact-info-upper-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p{
-      font-size: 1rem;
-    }
+  .contact-info-upper-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p{
+    font-size: 1rem;
+  }
   
-    footer {
-      height: 40vh;
-    }
-    .pdf-container {
-      width: 100% !important;
-      height: 80vh !important;
-    }
-    .container-fluid,
-    .container{
-      height:fit-content;
-      width: fit-content;
-    }
-    .table{
-      height:fit-content;
-      width: fit-content;
-    }
+  footer {
+    height: 40vh;
+  }
+  .pdf-container {
+    width: 100% !important;
+    height: 80vh !important;
+  }
+  .container-fluid,
+  .container{
+    height:fit-content;
+    width: fit-content;
+  }
+  .table{
+    height:fit-content;
+    width: fit-content;
+  }
   
 }
