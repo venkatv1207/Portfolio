@@ -38,3 +38,4 @@ function email(){
 function mobile(){
     document.getElementById("i2").innerHTML="+91 9390443840"
 }
+
