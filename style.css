@@ -33,9 +33,11 @@ nav {
   z-index: 99;
 }
 
+
+
 .nav__content {
-  max-width: var(--max-width);
-  margin: auto;
+  /* max-width: var(--max-width); */
+  /* margin: auto; */
   padding: 1.5rem 1rem;
   display: flex;
   align-items: center;
@@ -49,6 +51,7 @@ nav .logo a {
   font-weight: 600;
   color:	#7e322f;
   transition: 0.3s;
+  text-decoration: none;
 }
 nav .logo a:hover {
   color: var(--primary-color-dark);
@@ -139,15 +142,18 @@ ul li a:hover {
 
 #v{
   text-align: center;
-  padding: 2px;
+  padding: 4px;
   border:2px solid black;
-  border-radius: 20px;
-  width: 19%;
+  border-radius: 10px;
+  width: 20%;
   color:#ffffff;
   font-size:large;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   background-color:cadetblue;
+  text-decoration: none;
+  background-color: #ca8a04;
+  color: black;
   
 }
 
