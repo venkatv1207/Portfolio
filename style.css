@@ -419,12 +419,13 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 120%;
 }
 
 .image-container {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
 }
 
 .profile-image {
@@ -484,6 +485,14 @@ a:hover {
 .floating-icon:nth-child(4) {
   bottom: 10%;
   left: -15%;
+}
+.floating-icon:nth-child(5) {
+  bottom: 10%;
+  right: -1%;
+}
+.floating-icon:nth-child(6) {
+  bottom: 1%;
+  left: -1%;
 }
 
 @keyframes float {
